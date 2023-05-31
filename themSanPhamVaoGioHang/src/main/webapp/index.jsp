@@ -8,6 +8,7 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="/shop">Cart</a><br>
+<a href="/shopping-cart">Shopping Cart</a>
 </body>
 </html>

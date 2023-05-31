@@ -32,6 +32,8 @@ import java.util.Properties;
 @EnableWebMvc
 @EnableTransactionManagement
 @EnableSpringDataWebSupport
+@ComponentScan("ra")
+@EnableJpaRepositories("ra.repository")
 public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
     private ApplicationContext applicationContext;
 
